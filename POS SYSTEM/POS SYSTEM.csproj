@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB9645A4-F32B-4502-B26C-E2E9D2020D26}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>POS_SYSTEM</RootNamespace>
+    <AssemblyName>POS SYSTEM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1004\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN.Designer.cs">
+      <DependentUpon>ADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINEDITPROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINEDITPROFILE.Designer.cs">
+      <DependentUpon>ADMINEDITPROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINLOGOUT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINLOGOUT.Designer.cs">
+      <DependentUpon>ADMINLOGOUT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINPROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINPROFILE.Designer.cs">
+      <DependentUpon>ADMINPROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINREGISTER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINREGISTER.Designer.cs">
+      <DependentUpon>ADMINREGISTER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CASHIER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CASHIER.Designer.cs">
+      <DependentUpon>CASHIER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dgvTRANSACTION.cs" />
+    <Compile Include="dgvTRANSACTIONS.cs" />
+    <Compile Include="EDITPROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDITPROFILE.Designer.cs">
+      <DependentUpon>EDITPROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORGOTPASSWORD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORGOTPASSWORD.Designer.cs">
+      <DependentUpon>FORGOTPASSWORD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITEM.Designer.cs">
+      <DependentUpon>ITEM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITEMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITEMS.Designer.cs">
+      <DependentUpon>ITEMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items1.cs" />
+    <Compile Include="lblItemDetails.cs" />
+    <Compile Include="lblItemName.cs" />
+    <Compile Include="lblItemPrice.cs" />
+    <Compile Include="lblTotalAmount.cs" />
+    <Compile Include="listViewOrders.cs" />
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGOUT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGOUT.Designer.cs">
+      <DependentUpon>LOGOUT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderItem.cs" />
+    <Compile Include="PAYMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAYMENT.Designer.cs">
+      <DependentUpon>PAYMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QUANTITY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUANTITY.Designer.cs">
+      <DependentUpon>QUANTITY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RECEIPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RECEIPT.Designer.cs">
+      <DependentUpon>RECEIPT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptForm.cs" />
+    <Compile Include="REGISTER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REGISTER.Designer.cs">
+      <DependentUpon>REGISTER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tbQuantity.cs" />
+    <Compile Include="TRANSACTION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRANSACTION.Designer.cs">
+      <DependentUpon>TRANSACTION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="txtQuantity.cs" />
+    <Compile Include="USER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER.Designer.cs">
+      <DependentUpon>USER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USERPROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USERPROFILE.Designer.cs">
+      <DependentUpon>USERPROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WdAlignParagraph.cs" />
+    <EmbeddedResource Include="ADMIN.resx">
+      <DependentUpon>ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINEDITPROFILE.resx">
+      <DependentUpon>ADMINEDITPROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINLOGOUT.resx">
+      <DependentUpon>ADMINLOGOUT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINPROFILE.resx">
+      <DependentUpon>ADMINPROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINREGISTER.resx">
+      <DependentUpon>ADMINREGISTER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CASHIER.resx">
+      <DependentUpon>CASHIER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDITPROFILE.resx">
+      <DependentUpon>EDITPROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORGOTPASSWORD.resx">
+      <DependentUpon>FORGOTPASSWORD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITEMS.resx">
+      <DependentUpon>ITEMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGOUT.resx">
+      <DependentUpon>LOGOUT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAYMENT.resx">
+      <DependentUpon>PAYMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QUANTITY.resx">
+      <DependentUpon>QUANTITY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RECEIPT.resx">
+      <DependentUpon>RECEIPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REGISTER.resx">
+      <DependentUpon>REGISTER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRANSACTION.resx">
+      <DependentUpon>TRANSACTION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER.resx">
+      <DependentUpon>USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USERPROFILE.resx">
+      <DependentUpon>USERPROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SPORTS EQUIMENT %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\celtics.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kneepad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\molten.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word1">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

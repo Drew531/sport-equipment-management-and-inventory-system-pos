@@ -1,0 +1,28 @@
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\bin\Debug\POS SYSTEM.exe.config
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\bin\Debug\POS SYSTEM.exe
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\bin\Debug\POS SYSTEM.pdb
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS SYSTEM.csproj.AssemblyReference.cache
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.LOGIN.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.Properties.Resources.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.REGISTER.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS SYSTEM.csproj.GenerateResource.cache
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS SYSTEM.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS SYSTEM.exe
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS SYSTEM.pdb
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.FORGOTPASSWORD.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.PAYMENT.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.QUANTITY.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.RECIEPT.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.USER.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.ADMINEDITPROFILE.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.ADMINPROFILE.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.CASHIER.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.EDITPROFILE.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.ITEMS.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.TRANSACTION.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.USERPROFILE.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.ADMIN.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.ADMINREGISTER.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.ADMINLOGOUT.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS_SYSTEM.LOGOUT.resources
+C:\Users\Home\source\repos\POS SYSTEM\POS SYSTEM\obj\Debug\POS SYSTEM.csproj.ResolveComReference.cache
